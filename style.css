@@ -1,0 +1,87 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+.Inner-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 4px 0px 0px;
+    gap: 8px;
+    width: 100%;
+}
+.Main-wrapper{
+    width: 506px;
+    background: #EDF0F3;
+    padding: 8px 8px 8px 16px;
+    gap: 40px;
+    height: 72px;
+    margin: 0 auto;
+}
+.Numbers-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 132px;
+    width: 100%;
+    background: #EDF0F3;
+}
+.Numbers-wrapper p{
+    background: #FFFFFF;
+    padding: 3px 8px;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+.Numbers-wrapper span{
+    padding: 10px 0px;
+    display: flex;
+    align-items: end;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.Cta{
+    font-family: 'Be Vietnam';
+    width: 100%;
+    height: 56px;
+    background: #31AB46;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.Cta:hover{
+    background: #FFF;
+    color: #000;
+    border: 2px solid #31AB46;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
