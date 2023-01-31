@@ -1,0 +1,1 @@
+A website visitor's count is stored in the local storage. The first time a user visits the website, the count is set to 2057. On subsequent visits, a random count between 1 and 2057 is generated and displayed. The updated count is stored in local storage.
